@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <audio controls autoplay>
-      <source src="bgmeTiket.mp3" type="audio/mp3">
-    </audio>
+  <audio id="audioID" loop> <source src="bgmeTiket.mp3"  type="audio/mp3"></audio>
+
+  <script>
+  var myaudio = document.getElementById("audioID").autoplay = true;
+  </script>
 
   <div class="header">
     <h1>PESTA RAKYAT INDONESIA</h1>
